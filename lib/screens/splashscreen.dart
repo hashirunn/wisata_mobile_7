@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
+import 'package:wisata_mobile_7/screens/homescreen.dart';
 import 'package:wisata_mobile_7/screens/landingpagescreen.dart';
 import 'package:wisata_mobile_7/utils/const.dart';
 
@@ -15,10 +16,10 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
 
-    Future.delayed(const Duration(seconds: 5), () {
+    Future.delayed(const Duration(seconds: 2), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const LandingPageScreen()),
+        MaterialPageRoute(builder: (context) => const Homescreen()),
       );
     });
   }
