@@ -9,6 +9,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.6.1"
+  assets:
+    dependency: "direct main"
+    description:
+      name: assets
+      sha256: "4455a20860e58dfa31bb11f3853c2b07ae1b41dfeff4eec65f75b0945a71f96e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.1"
   async:
     dependency: transitive
     description:
@@ -92,7 +100,7 @@ packages:
     source: sdk
     version: "0.0.0"
   http:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: http
       sha256: b9c29a161230ee03d3ccf545097fccd9b87a5264228c5d348202e0f0c28f9010
